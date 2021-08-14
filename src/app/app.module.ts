@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { ReproductorComponent } from './reproductor/reproductor.component';
 import { ListDetailComponent } from './list-detail/list-detail.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { ListDetailComponent } from './list-detail/list-detail.component';
     NavbarComponent,
     ReproductorComponent,
     ListDetailComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
