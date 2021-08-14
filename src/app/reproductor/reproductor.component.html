@@ -1,12 +1,11 @@
 <div class="principal">
-  <div class="card" style="width: 80%;">
-    <img src="{{respuesta.url}}" class="card-img-top" style="max-height:80vh" alt="...">
+  <div class="card border border-secondary p-3" style="width: 80%; height:90vh">
+    <img src="{{respuesta.url}}" class="card-img-top" style="max-height:70vh" >
     <div class="card-body">
       <h5 class="card-title">{{respuesta.titulo}}</h5>
       <p class="card-text">{{respuesta.texto}}</p>
     </div>
   </div>
   <app-list-detail (respuestaEvent)="receivedRespuesta($event)" [dataRep]="dataRep"></app-list-detail>
-
 </div>
 

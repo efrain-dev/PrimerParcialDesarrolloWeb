@@ -1,9 +1,6 @@
-<p>Detalles</p>
-
-<div *ngFor="let item of dataRep">
-
-    {{item.titulo}}
-    {{item.url}}
-    {{item.texto}}
-  <button class="btn btn-primary"  (click)="sendRespuesta(item)"> HOla</button>
+<div class="d-flex border border-secondary p-3 mb-4" style="width: 40vh; cursor:pointer" *ngFor="let item of dataRep" (click)="sendRespuesta(item)">
+  <img src="{{item.url}}" class="card-img-top" style="width: 25vh; height:15vh" alt="...">
+  <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center align-items-center" style="height: 10vh;">{{item.titulo}}</h5>
+  </div>
 </div>
