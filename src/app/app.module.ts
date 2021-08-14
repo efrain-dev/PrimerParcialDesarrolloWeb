@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { ReproductorComponent } from './reproductor/reproductor.component';
+import { ListDetailComponent } from './list-detail/list-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
+    ReproductorComponent,
+    ListDetailComponent,
   ],
   imports: [
     BrowserModule,

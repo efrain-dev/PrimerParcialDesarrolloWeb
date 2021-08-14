@@ -1,0 +1,9 @@
+<p>Detalles</p>
+
+<div *ngFor="let item of dataRep">
+
+    {{item.titulo}}
+    {{item.url}}
+    {{item.texto}}
+  <button class="btn btn-primary"  (click)="sendRespuesta(item)"> HOla</button>
+</div>
